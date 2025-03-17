@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- js -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<!-- Add style -->
+	<link rel="stylesheet" text="text/css" href="style.css">
+
+	<title>Seatwork 2: JavaScript Functions with Operators</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="https">
+			</div>
+		</div>
+
+		<h1>hello, let's solve some math problems together! :></h1>
+			<p class="h4">given:</p>
+			<form>
+				<label for="value1">enter a value of <kbd>a</kbd>:</label>
+				<input type="text" name="value1" id="value1">	
+				<br/>
+				<label for="value2">enter a value of <kbd>b</kbd>:</label>
+				<input type="text" name="value2" id="value2">	
+
+			</form>
+		<br/>
+			<button type= "button" class="btn btn-outline-light" onclick="toProd()">product of a & b</button>
+			<button type="button" class="btn btn-outline-light" onclick="toRaise()">a raise to b</button>
+			<button type="button" class="btn btn-outline-light" onclick="toRemain()">get the remainder</button>
+			<button type="button" class="btn btn-outline-light" onclick="toEqual()">check if a is equal to b</button>
+			<button type="button" class="btn btn-outline-light" onClick="window.location.reload()">refresh</button>
+
+
+		<script type="text/javascript">
+		function toProd(){
+			var a = document.getElementById('avalue').value; 
+			var b = document.getElementById('bvalue').value; 
+			window.alert('the product of a and b is' '+(a*b)+')
+			var .toFixed(2);
+
+			// Product
+			document.getElementById ('currency').innerHTML=
+			'the product of a and b is ' + '' + ''
+		}
+		</script>
+
+		<script type="text/javascript">
+		function toRaise(){
+			var a = document.getElementById('avalue').value; 
+			var b = document.getElementById('bvalue').value; 
+			window.alert('a raised to b is' '(a**b)')
+			var .toFixed(2);
+
+			// Raise
+			document.getElementById ('currency').innerHTML=
+			'a raised to b is ' + '' + ''
+		}
+		</script>
+
+		<script type="text/javascript">
+		function toRaise(){
+			var a = document.getElementById('avalue').value; 
+			var b = document.getElementById('bvalue').value; 
+			window.alert('a raised to b is' '')
+			var .toFixed(2);
+
+			// Remainder
+			document.getElementById ('currency').innerHTML=
+			'the remainder of a of b is ' + '' + ''
+		}
+		</script>
+
+		<script type="text/javascript">
+		function toRaise(){
+			var a = document.getElementById('avalue').value; 
+			var b = document.getElementById('bvalue').value; 
+			window.alert('a raised to b is' '')
+			var .toFixed(2);
+
+			// Equal
+			document.getElementById ('currency').innerHTML=
+			'check if a and b are equal: ' + '' + ''
+		}
+		</script>
+
+	</div>
+	<div class="footer"> 
+		<hr><p> &#169; 2025 | ICT | Exercise 3: Functions | Yao, Francesca </p>
+	</div>
+</body>
+</html>
